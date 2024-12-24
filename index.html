@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://imgs.search.brave.com/ZXpAhPESWVjYwHwMHqzwPAPNyBFF0nIj2TXJPEjwfqw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC90b2RvLWlj/b24tNTEyeDUxMi05/a2w2cG96dy5wbmc" type="image/x-icon">
+
+</head>
+<body>
+    <div id="todo-app">
+        <!-- Add Item Section -->
+        <h1>Todo List</h1>
+        <div id="add-item">
+            <input type="text" id="task-name" placeholder="Task Name">
+            <input type="date" id="task-date">
+            <select id="task-priority">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <button id="add-item-btn">Add Item</button>
+        </div>
+
+        <!-- Sections for tasks -->
+        <div id="tasks-container">
+            <div id="today-tasks">
+                <h3>Today's Tasks</h3>
+                <ul id="today-tasks-list"></ul>
+            </div>
+            <div id="future-tasks">
+                <h3>Future Tasks</h3>
+                <ul id="future-tasks-list"></ul>
+            </div>
+            <div id="completed-tasks">
+                <h3>Completed Tasks</h3>
+                <ul id="completed-tasks-list"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

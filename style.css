@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#todo-app {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#add-item input,
+#add-item select,
+#add-item button {
+  margin: 20px;
+  padding: 10px;
+  
+}
+
+button {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.pending {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0 0 30px;
+
+}
+h1{
+  font-size: 40px;
+  margin-left: 10px;
+}
